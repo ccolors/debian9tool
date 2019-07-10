@@ -1,0 +1,9 @@
+$TTL	86400
+@	IN	SOA	localhost_sv. root.localhost. (
+			 replace_serial		; Serial
+			 replace_refresh		; Refresh
+			 replace_retry		; Retry
+			 replace_expire		; Expire
+			 replace_negative )	; Negative Cache TTL
+
+@	IN	NS  localhost_sv.
